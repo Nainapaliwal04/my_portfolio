@@ -42,5 +42,19 @@ export class App {
         `translate(${x * 0.8}px, ${y * 0.8}px)`;
     }
 
+    const profile = document.getElementById('profile');
+
+if (profile) {
+  profile.style.transform =
+    `translate(${x * 0.3}px, ${y * 0.3}px)`;
+}
+
+const techs = document.querySelectorAll('.tech');
+
+techs.forEach((item: any) => {
+  item.style.transform =
+    `translate(${x * 0.5}px, ${y * 0.5}px)`;
+});
+
   }
 }
