@@ -77,7 +77,7 @@
     border-radius: 50%;
 
     background:
-        radial-gradient(rgba(255, 77, 109, .15),
+        radial-gradient(rgba(255, 77, 110, 0),
             transparent 70%);
 
     left: 50%;
